@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <title>Tik Tak Toe</title>
+        <meta charset="UTF_8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+        <!--style-->
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h1>Tik Tak Toe</h1>
+        <div class="score">
+            <div class="play-box">
+                <div class="in-box b1" style="border-bottom:3px solid #FFF;border-right:3px solid #FFF"></div>
+                <div class="in-box b2" style="border-bottom:3px solid #FFF"></div>
+                <div class="in-box b3" style="border-bottom:3px solid #FFF;border-left:3px solid #FFF"></div>
+                <div class="in-box b4" style="border-bottom:3px solid #FFF;border-right:3px solid #FFF"></div>
+                <div class="in-box b5" style="border-bottom:3px solid #FFF"></div>
+                <div class="in-box b6" style="border-bottom:3px solid #FFF;border-left:3px solid #FFF"></div>
+                <div class="in-box b7" style="border-right:3px solid #FFF"></div>
+                <div class="in-box b8"></div>
+                <div class="in-box b9" style="border-left:3px solid #FFF"></div>
+            </div>
+            <div class="point">
+                <span class="player-point">
+                    PlayerO:<span class="play-num"> 00</span>
+                </span>
+                <span class="player-point">
+                    PlayerX:<span class="play-num"> 00</span>
+                </span>
+            </div>
+        </div>
+
+        <div id="btns">
+            <button class="btn" style="color:rgb(255, 0, 0)">Clear Data</button>
+            <button class="btn" style="color:rgb(0,0,255)">Restart Game</button>
+            <button class="btn" style="color:rgb(19, 82, 16)">settings</button>
+        </div>
+
+        <div id="notify">
+            Player(O) will start the game!
+        </div>
+
+        <!--script-->
+        <script src="script.js"></script>
+    </body>
+</html>
